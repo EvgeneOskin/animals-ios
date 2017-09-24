@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Animal" representedClassName="Animal" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="birth" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Birth" inverseName="child" inverseEntity="Birth" syncable="YES"/>
+        <relationship name="childByFather" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Birth" inverseName="father" inverseEntity="Birth" syncable="YES"/>
+        <relationship name="childByMother" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Birth" inverseName="mother" inverseEntity="Birth" syncable="YES"/>
+    </entity>
+    <entity name="Birth" representedClassName="Birth" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="child" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Animal" inverseName="birth" inverseEntity="Animal" syncable="YES"/>
+        <relationship name="father" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Animal" inverseName="childByFather" inverseEntity="Animal" syncable="YES"/>
+        <relationship name="mother" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Animal" inverseName="childByMother" inverseEntity="Animal" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Animal" positionX="-468" positionY="-56" width="335" height="30"/>
+        <element name="Birth" positionX="-54" positionY="9" width="198" height="105"/>
+    </elements>
+</model>
