@@ -5,12 +5,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var table: UITableView!
     var animals: [NSManagedObject] = []
+    var storage: Storage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Animals"
         table.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        storage = Storage()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -41,33 +43,14 @@ class ViewController: UIViewController {
     }
     
     func fetchData() {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return
-        }
-        let managedContext = appDelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Animal")
-        do {
-            animals = try managedContext.fetch(fetchRequest)
-        } catch let error as NSError {
-            print("can not add animal \(error)")
-        }
+        animals = storage.fetchAnimals()
     }
     
     func save(name: String) {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
-            return
-        }
-        let managedContext = appDelegate.persistentContainer.viewContext
-        let entity = NSEntityDescription.entity(forEntityName: "Animal", in: managedContext)!
-        let animal = NSManagedObject(entity: entity, insertInto: managedContext)
-        
-        animal.setValue(name, forKeyPath: "name")
-        
-        do {
-            try managedContext.save()
+        let animal = storage.createAnimal(name: name)
+        storage.save()
+        if let animal = animal {
             animals.append(animal)
-        } catch let error as NSError {
-            print("can not add animal \(error)")
         }
     }
 }

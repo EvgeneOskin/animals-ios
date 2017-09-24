@@ -13,7 +13,9 @@
 		12A7B2041F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */; };
 		12A7B2061F77A0FC005D5199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A7B2051F77A0FC005D5199 /* Assets.xcassets */; };
 		12A7B2091F77A0FC005D5199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A7B2071F77A0FC005D5199 /* LaunchScreen.storyboard */; };
-		12A7B2141F77A0FC005D5199 /* CoreDataPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2131F77A0FC005D5199 /* CoreDataPlaygroundTests.swift */; };
+		12A7B2141F77A0FC005D5199 /* StorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2131F77A0FC005D5199 /* StorageTest.swift */; };
+		12A7B21F1F77D07F005D5199 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B21E1F77D07F005D5199 /* Storage.swift */; };
+		12A7B2221F77D52A005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,9 @@
 		12A7B2081F77A0FC005D5199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A7B20A1F77A0FC005D5199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A7B20F1F77A0FC005D5199 /* CoreDataPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		12A7B2131F77A0FC005D5199 /* CoreDataPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlaygroundTests.swift; sourceTree = "<group>"; };
+		12A7B2131F77A0FC005D5199 /* StorageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTest.swift; sourceTree = "<group>"; };
 		12A7B2151F77A0FC005D5199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A7B21E1F77D07F005D5199 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				12A7B1FB1F77A0FC005D5199 /* AppDelegate.swift */,
+				12A7B21E1F77D07F005D5199 /* Storage.swift */,
 				12A7B1FD1F77A0FC005D5199 /* ViewController.swift */,
 				12A7B1FF1F77A0FC005D5199 /* Main.storyboard */,
 				12A7B2051F77A0FC005D5199 /* Assets.xcassets */,
@@ -93,7 +97,7 @@
 		12A7B2121F77A0FC005D5199 /* CoreDataPlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				12A7B2131F77A0FC005D5199 /* CoreDataPlaygroundTests.swift */,
+				12A7B2131F77A0FC005D5199 /* StorageTest.swift */,
 				12A7B2151F77A0FC005D5199 /* Info.plist */,
 			);
 			path = CoreDataPlaygroundTests;
@@ -203,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A7B2041F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */,
+				12A7B21F1F77D07F005D5199 /* Storage.swift in Sources */,
 				12A7B1FE1F77A0FC005D5199 /* ViewController.swift in Sources */,
 				12A7B1FC1F77A0FC005D5199 /* AppDelegate.swift in Sources */,
 			);
@@ -212,7 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A7B2141F77A0FC005D5199 /* CoreDataPlaygroundTests.swift in Sources */,
+				12A7B2141F77A0FC005D5199 /* StorageTest.swift in Sources */,
+				12A7B2221F77D52A005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
