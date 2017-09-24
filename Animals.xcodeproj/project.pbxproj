@@ -10,12 +10,12 @@
 		12A7B1FC1F77A0FC005D5199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B1FB1F77A0FC005D5199 /* AppDelegate.swift */; };
 		12A7B1FE1F77A0FC005D5199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B1FD1F77A0FC005D5199 /* ViewController.swift */; };
 		12A7B2011F77A0FC005D5199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A7B1FF1F77A0FC005D5199 /* Main.storyboard */; };
-		12A7B2041F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */; };
+		12A7B2041F77A0FC005D5199 /* Animals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* Animals.xcdatamodeld */; };
 		12A7B2061F77A0FC005D5199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A7B2051F77A0FC005D5199 /* Assets.xcassets */; };
 		12A7B2091F77A0FC005D5199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A7B2071F77A0FC005D5199 /* LaunchScreen.storyboard */; };
 		12A7B2141F77A0FC005D5199 /* StorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2131F77A0FC005D5199 /* StorageTest.swift */; };
 		12A7B21F1F77D07F005D5199 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B21E1F77D07F005D5199 /* Storage.swift */; };
-		12A7B2221F77D52A005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */; };
+		12A7B2221F77D52A005D5199 /* Animals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A7B2021F77A0FC005D5199 /* Animals.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,20 +24,20 @@
 			containerPortal = 12A7B1F01F77A0FC005D5199 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 12A7B1F71F77A0FC005D5199;
-			remoteInfo = CoreDataPlayground;
+			remoteInfo = Animals;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12A7B1F81F77A0FC005D5199 /* CoreDataPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A7B1F81F77A0FC005D5199 /* Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A7B1FB1F77A0FC005D5199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A7B1FD1F77A0FC005D5199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12A7B2001F77A0FC005D5199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		12A7B2031F77A0FC005D5199 /* CoreDataPlayground.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPlayground.xcdatamodel; sourceTree = "<group>"; };
+		12A7B2031F77A0FC005D5199 /* Animals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animals.xcdatamodel; sourceTree = "<group>"; };
 		12A7B2051F77A0FC005D5199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A7B2081F77A0FC005D5199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A7B20A1F77A0FC005D5199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12A7B20F1F77A0FC005D5199 /* CoreDataPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A7B20F1F77A0FC005D5199 /* AnimalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A7B2131F77A0FC005D5199 /* StorageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageTest.swift; sourceTree = "<group>"; };
 		12A7B2151F77A0FC005D5199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A7B21E1F77D07F005D5199 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		12A7B1EF1F77A0FC005D5199 = {
 			isa = PBXGroup;
 			children = (
-				12A7B1FA1F77A0FC005D5199 /* CoreDataPlayground */,
-				12A7B2121F77A0FC005D5199 /* CoreDataPlaygroundTests */,
+				12A7B1FA1F77A0FC005D5199 /* Animals */,
+				12A7B2121F77A0FC005D5199 /* AnimalsTests */,
 				12A7B1F91F77A0FC005D5199 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,13 +73,13 @@
 		12A7B1F91F77A0FC005D5199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12A7B1F81F77A0FC005D5199 /* CoreDataPlayground.app */,
-				12A7B20F1F77A0FC005D5199 /* CoreDataPlaygroundTests.xctest */,
+				12A7B1F81F77A0FC005D5199 /* Animals.app */,
+				12A7B20F1F77A0FC005D5199 /* AnimalsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12A7B1FA1F77A0FC005D5199 /* CoreDataPlayground */ = {
+		12A7B1FA1F77A0FC005D5199 /* Animals */ = {
 			isa = PBXGroup;
 			children = (
 				12A7B1FB1F77A0FC005D5199 /* AppDelegate.swift */,
@@ -89,26 +89,26 @@
 				12A7B2051F77A0FC005D5199 /* Assets.xcassets */,
 				12A7B2071F77A0FC005D5199 /* LaunchScreen.storyboard */,
 				12A7B20A1F77A0FC005D5199 /* Info.plist */,
-				12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */,
+				12A7B2021F77A0FC005D5199 /* Animals.xcdatamodeld */,
 			);
-			path = CoreDataPlayground;
+			path = Animals;
 			sourceTree = "<group>";
 		};
-		12A7B2121F77A0FC005D5199 /* CoreDataPlaygroundTests */ = {
+		12A7B2121F77A0FC005D5199 /* AnimalsTests */ = {
 			isa = PBXGroup;
 			children = (
 				12A7B2131F77A0FC005D5199 /* StorageTest.swift */,
 				12A7B2151F77A0FC005D5199 /* Info.plist */,
 			);
-			path = CoreDataPlaygroundTests;
+			path = AnimalsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12A7B1F71F77A0FC005D5199 /* CoreDataPlayground */ = {
+		12A7B1F71F77A0FC005D5199 /* Animals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12A7B2181F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "CoreDataPlayground" */;
+			buildConfigurationList = 12A7B2181F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "Animals" */;
 			buildPhases = (
 				12A7B1F41F77A0FC005D5199 /* Sources */,
 				12A7B1F51F77A0FC005D5199 /* Frameworks */,
@@ -118,14 +118,14 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataPlayground;
-			productName = CoreDataPlayground;
-			productReference = 12A7B1F81F77A0FC005D5199 /* CoreDataPlayground.app */;
+			name = Animals;
+			productName = Animals;
+			productReference = 12A7B1F81F77A0FC005D5199 /* Animals.app */;
 			productType = "com.apple.product-type.application";
 		};
-		12A7B20E1F77A0FC005D5199 /* CoreDataPlaygroundTests */ = {
+		12A7B20E1F77A0FC005D5199 /* AnimalsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12A7B21B1F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "CoreDataPlaygroundTests" */;
+			buildConfigurationList = 12A7B21B1F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "AnimalsTests" */;
 			buildPhases = (
 				12A7B20B1F77A0FC005D5199 /* Sources */,
 				12A7B20C1F77A0FC005D5199 /* Frameworks */,
@@ -136,9 +136,9 @@
 			dependencies = (
 				12A7B2111F77A0FC005D5199 /* PBXTargetDependency */,
 			);
-			name = CoreDataPlaygroundTests;
-			productName = CoreDataPlaygroundTests;
-			productReference = 12A7B20F1F77A0FC005D5199 /* CoreDataPlaygroundTests.xctest */;
+			name = AnimalsTests;
+			productName = AnimalsTests;
+			productReference = 12A7B20F1F77A0FC005D5199 /* AnimalsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12A7B1F31F77A0FC005D5199 /* Build configuration list for PBXProject "CoreDataPlayground" */;
+			buildConfigurationList = 12A7B1F31F77A0FC005D5199 /* Build configuration list for PBXProject "Animals" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,8 +175,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12A7B1F71F77A0FC005D5199 /* CoreDataPlayground */,
-				12A7B20E1F77A0FC005D5199 /* CoreDataPlaygroundTests */,
+				12A7B1F71F77A0FC005D5199 /* Animals */,
+				12A7B20E1F77A0FC005D5199 /* AnimalsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A7B2041F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */,
+				12A7B2041F77A0FC005D5199 /* Animals.xcdatamodeld in Sources */,
 				12A7B21F1F77D07F005D5199 /* Storage.swift in Sources */,
 				12A7B1FE1F77A0FC005D5199 /* ViewController.swift in Sources */,
 				12A7B1FC1F77A0FC005D5199 /* AppDelegate.swift in Sources */,
@@ -218,7 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A7B2141F77A0FC005D5199 /* StorageTest.swift in Sources */,
-				12A7B2221F77D52A005D5199 /* CoreDataPlayground.xcdatamodeld in Sources */,
+				12A7B2221F77D52A005D5199 /* Animals.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +227,7 @@
 /* Begin PBXTargetDependency section */
 		12A7B2111F77A0FC005D5199 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 12A7B1F71F77A0FC005D5199 /* CoreDataPlayground */;
+			target = 12A7B1F71F77A0FC005D5199 /* Animals */;
 			targetProxy = 12A7B2101F77A0FC005D5199 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -365,9 +365,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K623E66Q6;
-				INFOPLIST_FILE = CoreDataPlayground/Info.plist;
+				INFOPLIST_FILE = Animals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.CoreDataPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.Animals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K623E66Q6;
-				INFOPLIST_FILE = CoreDataPlayground/Info.plist;
+				INFOPLIST_FILE = Animals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.CoreDataPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.Animals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,13 +396,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K623E66Q6;
-				INFOPLIST_FILE = CoreDataPlaygroundTests/Info.plist;
+				INFOPLIST_FILE = AnimalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.CoreDataPlaygroundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.AnimalsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPlayground.app/CoreDataPlayground";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animals.app/Animals";
 			};
 			name = Debug;
 		};
@@ -413,20 +413,20 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K623E66Q6;
-				INFOPLIST_FILE = CoreDataPlaygroundTests/Info.plist;
+				INFOPLIST_FILE = AnimalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.CoreDataPlaygroundTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.eoskin.AnimalsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPlayground.app/CoreDataPlayground";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animals.app/Animals";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12A7B1F31F77A0FC005D5199 /* Build configuration list for PBXProject "CoreDataPlayground" */ = {
+		12A7B1F31F77A0FC005D5199 /* Build configuration list for PBXProject "Animals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12A7B2161F77A0FC005D5199 /* Debug */,
@@ -435,7 +435,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12A7B2181F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "CoreDataPlayground" */ = {
+		12A7B2181F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "Animals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12A7B2191F77A0FC005D5199 /* Debug */,
@@ -444,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12A7B21B1F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "CoreDataPlaygroundTests" */ = {
+		12A7B21B1F77A0FC005D5199 /* Build configuration list for PBXNativeTarget "AnimalsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12A7B21C1F77A0FC005D5199 /* Debug */,
@@ -456,13 +456,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		12A7B2021F77A0FC005D5199 /* CoreDataPlayground.xcdatamodeld */ = {
+		12A7B2021F77A0FC005D5199 /* Animals.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				12A7B2031F77A0FC005D5199 /* CoreDataPlayground.xcdatamodel */,
+				12A7B2031F77A0FC005D5199 /* Animals.xcdatamodel */,
 			);
-			currentVersion = 12A7B2031F77A0FC005D5199 /* CoreDataPlayground.xcdatamodel */;
-			path = CoreDataPlayground.xcdatamodeld;
+			currentVersion = 12A7B2031F77A0FC005D5199 /* Animals.xcdatamodel */;
+			path = Animals.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -8,7 +8,7 @@
 
 import XCTest
 import CoreData
-@testable import CoreDataPlayground
+@testable import Animals
 
 class CoreDataPlaygroundTests: XCTestCase {
     

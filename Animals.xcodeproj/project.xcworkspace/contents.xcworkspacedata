@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoreDataPlayground.xcodeproj">
+      location = "self:/Users/eoskin/projects/CoreDataPlayground/CoreDataPlayground/Animals.xcodeproj">
    </FileRef>
 </Workspace>
